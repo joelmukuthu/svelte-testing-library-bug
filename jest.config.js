@@ -6,4 +6,8 @@ module.exports = {
     'js',
     'svelte'
   ],
+  resolver: 'jest-svelte-resolver',
+  transformIgnorePatterns: [
+    'node_modules/(?!fa-svelte)'
+  ],
 }
